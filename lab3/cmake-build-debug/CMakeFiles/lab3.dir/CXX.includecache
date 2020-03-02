@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/anna/CLionProjects/Programming2sem/lab3/CSet.h
+vector
+-
+ostream
+-
+
+C:/Users/anna/CLionProjects/Programming2sem/lab3/Triangle.h
+ostream
+-
+
+C:/Users/anna/CLionProjects/Programming2sem/lab3/main.cpp
+iostream
+-
+Triangle.h
+C:/Users/anna/CLionProjects/Programming2sem/lab3/Triangle.h
+CSet.h
+C:/Users/anna/CLionProjects/Programming2sem/lab3/CSet.h
+
