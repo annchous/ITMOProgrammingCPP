@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/anna/CLionProjects/Programming2sem/lab4/Hexagon.h
+Interfaces.h
+C:/Users/anna/CLionProjects/Programming2sem/lab4/Interfaces.h
+cmath
+-
+
+C:/Users/anna/CLionProjects/Programming2sem/lab4/Interfaces.h
+
+C:/Users/anna/CLionProjects/Programming2sem/lab4/Segment.h
+Interfaces.h
+C:/Users/anna/CLionProjects/Programming2sem/lab4/Interfaces.h
+
+C:/Users/anna/CLionProjects/Programming2sem/lab4/main.cpp
+iostream
+-
+Interfaces.h
+C:/Users/anna/CLionProjects/Programming2sem/lab4/Interfaces.h
+Segment.h
+C:/Users/anna/CLionProjects/Programming2sem/lab4/Segment.h
+Hexagon.h
+C:/Users/anna/CLionProjects/Programming2sem/lab4/Hexagon.h
+vector
+-
+algorithm
+-
+
