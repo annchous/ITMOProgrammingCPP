@@ -41,18 +41,18 @@ int main() {
         std::for_each(figureType.begin(), figureType.end(), [](char& c){
             c = ::tolower(c);
         });
-        if (figureType == "0") {
+        if (figureType == "segment") {
+            figures.push_back(new Segment());
+        }
+        else if (figureType == "hexagon") {
+            figures.push_back(new Hexagon);
+        }
+        else if (figureType == "0") {
             break;
         }
         else {
             std::cout << "Enter valid type of figure (segment or hexagon)!" << std::endl;
             std::cin >> figureType;
-        }
-        if (figureType == "segment") {
-            figures.push_back(new Segment());
-        }
-        else if (figureType == "hexagon") {
-            figures.push_back(new Hexagon());
         }
         figures[i]->initFromDialog();
         i++;
