@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/anna/CLionProjects/Programming2sem/lab6/Algorithms.cpp
+iterator
+-
+
+C:/Users/anna/CLionProjects/Programming2sem/lab6/Algorithms.h
+Algorithms.cpp
+C:/Users/anna/CLionProjects/Programming2sem/lab6/Algorithms.cpp
+
+C:/Users/anna/CLionProjects/Programming2sem/lab6/main.cpp
+iostream
+-
+Algorithms.h
+C:/Users/anna/CLionProjects/Programming2sem/lab6/Algorithms.h
+vector
+-
+
