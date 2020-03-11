@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/anna/CLionProjects/Programming2sem/lab5/Exception.cpp
+Exception.h
+C:/Users/anna/CLionProjects/Programming2sem/lab5/Exception.h
+utility
+-
+
+C:/Users/anna/CLionProjects/Programming2sem/lab5/Exception.h
+exception
+-
+string
+-
+
+C:/Users/anna/CLionProjects/Programming2sem/lab5/MaxElement.h
+
+C:/Users/anna/CLionProjects/Programming2sem/lab5/TArray.h
+iostream
+-
+Exception.h
+C:/Users/anna/CLionProjects/Programming2sem/lab5/Exception.h
+
+C:/Users/anna/CLionProjects/Programming2sem/lab5/main.cpp
+iostream
+-
+MaxElement.h
+C:/Users/anna/CLionProjects/Programming2sem/lab5/MaxElement.h
+TArray.h
+C:/Users/anna/CLionProjects/Programming2sem/lab5/TArray.h
+Exception.h
+C:/Users/anna/CLionProjects/Programming2sem/lab5/Exception.h
+
