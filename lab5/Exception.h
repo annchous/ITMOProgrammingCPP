@@ -5,7 +5,6 @@
 #pragma once
 
 #include <exception>
-#include <string>
 
 class Exception : public std::exception {
 private:
