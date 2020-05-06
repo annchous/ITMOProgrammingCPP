@@ -43,7 +43,7 @@ public:
 
     T& operator[](int index) {
         if (index < 0 || index >= length) {
-            throw Exception("Index out of range! ", -1);
+            throw Exception("Index out of range!");
         }
         return data[index];
     }

@@ -7,13 +7,12 @@
 #include <exception>
 #include <string>
 
-class Exception {
+class Exception : public std::exception {
 private:
-    std::string message;
-    int exceptionCode;
+    const char* message;
 public:
-
-    Exception(std::string, int);
-    std::string ShowMessage();
-    int GetCode();
+    Exception();
+    Exception(const char* const &);
+    ~Exception() override;
+    [[nodiscard]] const char* what() const noexcept override;
 };

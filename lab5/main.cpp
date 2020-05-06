@@ -30,8 +30,7 @@ int main() {
         std::cout << arrI[index] << std::endl;
 
     } catch (Exception& exception) {
-        std::cout << "Error: " << exception.ShowMessage() << std::endl;
-        std::cout << "Error code: " << exception.GetCode() << std::endl;
+        std::cout << "Error: " << exception.what() << std::endl;
         exit(1);
     }
 
@@ -48,8 +47,7 @@ int main() {
         std::cout << arrD[index] << std::endl;
 
     } catch (Exception& exception) {
-        std::cout << "Error: " << exception.ShowMessage() << std::endl;
-        std::cout << "Error code: " << exception.GetCode() << std::endl;
+        std::cout << "Error: " << exception.what() << std::endl;
         exit(1);
     }
 

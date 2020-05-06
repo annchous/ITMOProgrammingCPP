@@ -4,17 +4,15 @@
 
 #include "Exception.h"
 
-#include <utility>
+Exception::Exception() = default;
 
-Exception::Exception(std::string message_, int exceptionCode_) {
-    message = std::move(message_);
-    exceptionCode = exceptionCode_;
-}
+Exception::Exception(const char *const &message_)
+            : message(message_)
+{}
 
-std::string Exception::ShowMessage() {
+const char *Exception::what() const noexcept {
     return message;
 }
 
-int Exception::GetCode() {
-    return exceptionCode;
-}
+Exception::~Exception() = default;
+
