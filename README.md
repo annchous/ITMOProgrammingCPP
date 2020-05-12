@@ -12,4 +12,4 @@
 <p>Lab 9: Coming soon</p>
 <p>Lab 10: Coming soon</p>
 <hr>
-<p><a href = "">Edge test #1</a></p>
+<p><a href = "https://github.com/annchous/ITMOProgrammingCPP/blob/master/edgeTest/main.cpp">Edge test #1</a></p>
