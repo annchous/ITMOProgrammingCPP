@@ -1,0 +1,3 @@
+C:/Users/anna/CLionProjects/EdgeTest/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/anna/CLionProjects/EdgeTest/cmake-build-debug/CMakeFiles/EdgeTest.dir
+C:/Users/anna/CLionProjects/EdgeTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
