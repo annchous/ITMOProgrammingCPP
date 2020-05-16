@@ -10,6 +10,5 @@
 <p><a href = "https://github.com/annchous/ITMOProgrammingCPP/tree/master/lab7">Lab 7: STL compatible container – Circular Buffer (soon)</a></p>
 <p><a href = "https://github.com/annchous/ITMOProgrammingCPP/tree/master/lab8">Lab 8: Rubik's Cube (soon)</a></p>
 <p>Lab 9: Coming soon</p>
-<p>Lab 10: Coming soon</p>
 <hr>
 <p><a href = "https://github.com/annchous/ITMOProgrammingCPP/blob/master/edgeTest/main.cpp">Edge test #1</a></p>
